@@ -1,0 +1,1 @@
+nohup ./chainx --key=$CHAINX_PRIVATE_KEY  --validator-name=$CHAINX_NODE_NAME --name=$CHAINX_NODE_NAME --base-path=./  --validator --chain=local --pruning archive --block-construction-execution=NativeElseWasm --other-execution=NativeElseWasm --syncing-execution=NativeElseWasm >> log& 
