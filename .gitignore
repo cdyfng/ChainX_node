@@ -1,3 +1,5 @@
 chains/
 log
 chainx
+nohup.out
+restart
